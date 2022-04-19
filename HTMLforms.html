@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML FORMS</title>
+    </head>
+    <body>
+        <table  bgcolor="lightgrey" border="1"><br>
+            <tr>
+                <td align="center">
+                    LOGIN
+                    <table bgcolor="white" border="1" width="100%" cellspacing="50">
+                        <tr>
+                            <td>
+       
+       
+        <form method="post">
+            <input type="text" name="txtUsername" placeholder="Username"><br>
+            <input type="password" name="paPassword" placeholder="Password"><br>
+            <input type="submit" >
+        </form>
+        </td>
+                        </tr>
+                    </table>
+                 
+        </td>
+            </tr>
+        
+        </table><br>
+
+        <table border="1" bgcolor="lightblue" align="left" cellspacing="50" width="100%"><br>
+            <tr> 
+                
+                <td bgcolor="white" >
+                    <form method="post">
+                    <u> SIGN UP</u>
+                    <br>
+                    <br>
+                    Please fill this form to create your account!  
+                    <br>
+                    <br>
+                
+                    <input type="text" name="txtFirstname" placeholder="Firstname">&nbsp;&nbsp;&nbsp;
+                    <input type="text" name="txtLastname" placeholder="Lastname">
+                    <br>
+                    <br>
+                    <input  type="email" placeholder="E-mail">
+                    <br>
+                    <br>
+                    <input type="password" name="paPassword" placeholder="Password">
+                    <br>
+                    <br>
+                    <input type="password" name="paconfirmpassword" placeholder="confirm password">
+                    <br>
+                    <br>
+                
+                    <input type="checkbox" name="chkTermsandconditions" >I agree to the terms and conditions.<br>
+                    <br>
+                    <input  type="submit" value="Sign Up">
+                </form>
+        
+                </td>
+            </tr>
+        </table>
+       
+       
+         <br>
+        <table border="2" bgcolor="lightgreen"   cellspacing="20"><br>
+            <tr>
+                <td bgcolor="white">
+                    PAYMENT GATEWAY
+                    <form method="post">
+                    <input type="number" name="nbcnumber" placeholder="Card number"><br><br><br>
+                    <input type="datetime-local">&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="myCVV" placeholder="CVV number">
+                    <br>
+                    <br>
+                    <input type="text" name="txtCardname" placeholder="Name on card eg.AADI">
+                    <br>
+                    <br>
+                    <input style="color: coral;" type="submit"   value="Pay now">
+                    </form>
+                    
+
+
+                </td>
+            </tr>
+        </table><br>
+
+        <form method="post">
+        <table border="2" bgcolor="lightgrey" width="50%" cellspacing="20">
+            <tr>
+                <td bgcolor="white" colspan="3">
+                    <strong>Registration form!</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                       First Name           :  
+                    </td>
+                <td colspan="2">
+                    <input type="text" name="txtFname"><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+
+                          Last Name            :
+                </td>
+                <td colspan="2">
+                    <input type="text" name="txtLname"><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    UserID               :
+
+                </td>
+                <td colspan="2">
+                    <input type="text" name="txtID"><br>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Password             :
+
+                </td>
+                <td colspan="2">
+                    <input type="password" name="paPassword"><br>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Confirm password     :
+
+                </td>
+                <td colspan="2">
+                    <input type="password" name="paconfirmPassword"><br>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    E-Mail               :
+                </td>
+                <td colspan="2">
+                    <input type="email" ><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Contact Number       :
+                </td>
+                <td>
+                    <select>
+                        <option>91</option>
+                        <option>92</option>
+                        <option>61</option>
+                        <option>71</option>
+                    </select>
+                </td>
+                <td>
+                    <input type="tel" name="telnumber"><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Gender               :
+                </td>
+                <td colspan="2">
+                    <input type="radio" name="rdgender" value="F">Female
+                    <input type="radio" name="rdgender" value="M"> Male
+                    <input type="radio" name="rdgender" value="O">others
+
+                </td>
+            </tr> 
+            <tr>
+                <td colspan="3">
+                    <input type="submit" value="Register">
+                </td>
+            </tr>   
+
+                </td>
+            </tr>
+        </table>
+        </form><br>
+
+        <form method="POST">
+        <table bgcolor="pink" border="2" width="100%">
+            <tr>
+                <td>
+                    <strong>EVENT SURVEY!</strong><br>
+                    Please take a few mins to complete this survey..
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Have you attended the event?<br>
+                    <input type="radio" name="rdYORN" value="Yes">YES<br>
+                    <input type="radio" name="rdYORN" value="No">NO<br>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Describe your satisfaction!</strong>
+                    <table bgcolor="white" border="2" width="100%">
+                        <tr>
+                            <td width="16%"></td>
+                            <td width="16%">Very satisfied</td>
+                            <td width="16%">Satisfied</td>
+                            <td width="16%">Neutral</td>
+                            <td width="16%">Unsatisfied</td>
+                            <td width="16%">Very unsatisfied</td>
+                        </tr>
+                        <tr>
+                            <td>Overall satisfaction</td>
+                            <td><input type="radio" name="rdOS"></td>
+                            <td><input type="radio" name="rdOS"></td>
+                            <td><input type="radio" name="rdOS"></td>
+                            <td><input type="radio" name="rdOS"></td>
+                            <td><input type="radio" name="rdOS"></td>
+                        </tr>
+                        <tr>
+                            <td>Location</td>
+                            <td><input type="radio" name="rdL"></td>
+                            <td><input type="radio" name="rdL"></td>
+                            <td><input type="radio" name="rdL"></td>
+                            <td><input type="radio" name="rdL"></td>
+                            <td><input type="radio" name="rdL"></td>
+                        </tr>
+                        <tr>
+                            <td>Content</td>
+                            <td><input type="radio" name="rC"></td>
+                            <td><input type="radio" name="rC"></td>
+                            <td><input type="radio" name="rC"></td>
+                            <td><input type="radio" name="rC"></td>
+                            <td><input type="radio" name="rC"></td>
+                        </tr>
+                        <tr>
+                            <td>Price</td>
+                            <td><input type="radio" name="rP"></td>
+                            <td><input type="radio" name="rP"></td>
+                            <td><input type="radio" name="rP"></td>
+                            <td><input type="radio" name="rP"></td>
+                            <td><input type="radio" name="rP"></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td width="100%">
+                    How can we improve this event?<br>
+                    <textarea   name="tamessage" rows="10" cols="200"></textarea><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit">
+                </td>
+            </tr>
+
+        </table><br>
+        </form>
+        <form method="POST">
+        <table bgcolor="lightyellow" border="2" width="100%">
+            <tr>
+                <td>
+                    QUIZ!
+                </td>
+            </tr>
+            <tr>
+                <td>Choose the correct option and answer the questions.
+                    <table   border="0" width="100%"cellspacing="20">
+                        <tr>
+                            <td width="25%">1.What is 9*8?</td>
+                            <td width="25%">2.What is 76-56?</td>
+                            <td width="25%">3.What is 98/14?</td>
+                            <td width="25%"> 4.What is 10+87?</td>
+
+                        </tr>
+                        <tr>
+                            <td width="25%" ><input type="radio" name="rdans">72<br><input type="radio" name="rdans">62</td>
+                            <td width="25%"><input type="radio" name="rdans">20<br><input type="radio" name="rdans">10</td>
+                            <td width="25%" ><input type="radio" name="rdans">9<br><input type="radio" name="rdans">7</td>
+                            <td width="25%"><input type="radio" name="rdans">67<br><input type="radio" name="rdans">97</td>
+                        </tr>
+                        <tr>
+                            <td> 5.What is the capital of India?<br>
+                            <input type="text" name="txtanswer" placeholder="write your answer here."><br>
+                             6.Where is the lighthouse?<br>
+                            <input trpe="text" name="txtanswer" placeholder="write your answer here."><br>
+                            
+                            <input type="submit"><br>
+                        </td>
+                        </tr>
+                    </table>
+                </td><br>>
+            </tr>
+        </table>
+        </form><br>
+        <form method="POST" enctype="multipart/form-data">
+        <table bgcolor="white" border="2" width="100%" cellspacing="0">
+            <tr>
+                <td colspan="2" bgcolor="lightgreen">
+                    PATIENT INFORMATION.
+                </td>
+            </tr>
+            <tr>
+                <td colpsan="2">
+                    Name&nbsp;&nbsp;:
+                    </td>
+                    <td >
+                    <input type="text" name="txtusername" placeholder="FIRSTNAME">&nbsp;&nbsp;<input type="text" name="txtusername" placeholder="LASTNAME"><br>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td colspan="1">
+                    Gender &nbsp;&nbsp; :
+                    </td>
+                    <td>
+                    <input type="radio" name="rdgender">FEMALE
+                    <input type="radio" name="rdgender">MALE<input type="radio" name="rdgender">OTHERS<br>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>
+                    Date of birth &nbsp;&nbsp; :
+                    </td>
+                    <td>
+                    <input type="datetime-local">
+                </td>
+            </tr>
+            <tr>
+                <td>Contact phone number &nbsp;&nbsp;:
+                </td>
+                <td>
+                    <select>
+                        <option>91</option>
+                        <option>92</option>
+                        <option>61</option>
+                        <option>71</option>
+                    </select>
+                    <input type="tel" name="telphone" placeholder="eg:8610xxxxxx">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Email &nbsp;&nbsp;:
+                </td>
+                <td>
+                    <input type="email" >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Blood report</strong>:
+                    <input type="file" name="flupload">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>EMERGENCY CONTACT INFORMATION:</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Name &nbsp;&nbsp;:
+                </td>
+                <td>
+                    <input type="text" name="txtusername" placeholder="Name">
+                </td>
+                </tr>
+                <tr>
+                <td>Contact phone number &nbsp;&nbsp;:
+                </td>
+                <td>
+                    <select>
+                        <option>91</option>
+                        <option>92</option>
+                        <option>61</option>
+                        <option>71</option>
+                    </select>
+                    <input type="tel" name="telphone" placeholder="eg:8610xxxxxx">
+                </td>
+            </tr>
+            <tr>
+                <td align="left"bgcolor="white" colspan="2">
+                   <strong> Patient Consent for Publication</strong><br>
+
+
+The following information must be provided in order for this form to be processed accurately. Patients have the right to refuse to sign this consent form; refusal to sign this form will not affect their care in any way.
+
+
+
+<ul>
+    <li>I hereby give my consent for images or other clinical information relating to my case to be reported in a medical publication.</li>
+    <li>I understand that my name and initials will not be published and that efforts will be made to conceal my identity, but that anonymity cannot be guaranteed.    </li>
+    <li>I understand that the material may be published in a journal, Web site or other form of publication. As a result, I understand that the material may be seen by the general public.</li>
+</ul>
+
+
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="checkbox" name="chkTermsandconditions"  value="Termsandconditions"> I agree to the terms and conditions<br>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" >
+                </td>
+            </tr>
+            
+        </table>
+        </form><br>
+        <form method="POST" enctype="multipart/form-data" accept=".jpg" >
+            <table bgcolor="lightyellow" border="2" align="center">
+                <tr>
+                    <td colspan="2">
+                        <strong> ADOPTION FORM:</strong>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Name of the pet parent &nbsp;&nbsp;:
+                    </td>
+                    <td>
+                        <input type="text" name="txtusername" placeholder="Name" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Place &nbsp;&nbsp;:
+                    
+                    </td>
+                    <td>
+                        <select>
+                            <option>Chennai</option>
+                            <option>Karnataka</option>
+                            <option>Andhra</option>
+                            <option>kerala</option>
+                        </select> 
+
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Email &nbsp;&nbsp;:
+                    </td>
+                    <td>
+                        <input type="email" >
+                    </td>
+                </tr>
+                <tr>
+                    <td>Contact phone number &nbsp;&nbsp;:
+                    </td>
+                    <td>
+                        <select>
+                            <option>91</option>
+                            <option>92</option>
+                            <option>61</option>
+                            <option>71</option>
+                        </select>
+                        <input type="tel" name="telphone" placeholder="eg:8610xxxxxx">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Breed of the pet:
+                    </td>
+                    <td>
+                        <input type="radio" name="rdbreed" >Dog<input type="radio" name="rdbreed" >Cat<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        More about adoption process:
+                    </td>
+                    <td>
+                        <a href="https://www.thebetterindia.com/205001/how-to-adopt-dog-army-india-pet-adoption-dog-shelter-process-procedure" target="self">Click here</a><br>
+                       
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Image of the pet:
+                    </td>
+                    <td>
+                        <input type="image" src="download.jpg" width="25%">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit">
+                    </td>
+                </tr>
+
+            </table>
+        </form>
+    </body>
+</html>
