@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS STYLES</title>
+        <!--EXTERNAL CSS STYLES-->
+        <link rel="stylesheet" href="CSSstyles.css">
+
+        <!--INTERNAL STYLES-->
+        <style>
+            /* UNIVERSAL SELECTORS*/
+            
+            *{
+                color: darkslategray;
+            }
+            
+            /*TYPE SELECTORS*/
+            
+            h1 {
+                color:chocolate;
+            }
+            
+            /* CLASS  SELECTORS*/
+            
+            .text-blue{
+                color:royalblue;
+                background-color: salmon;
+            }
+
+            /*ID SELECTORS*/
+               #P1{
+                color: red;
+            }
+            /*ATTRIBUTE SELECTORS*/
+
+
+            /*[ATTRIBUTE]*/
+
+            [class ="text-blue bg-green"]{
+                color: slategray;
+            }
+            /*TYPE[ATTRIBUTE="VALUE"]*/
+
+            h2[class="text-green"]{
+                color: tomato;
+            
+            }
+            /*ID[ATTRIBUTE="VALUE"]*/
+            #p1[class="clsp1"]{
+                color: cadetblue;
+            }
+            /*.CLASS[ATTRIBUTE="VALUE"]*/
+            .cav [class="cls8"]{
+                color: cyan;
+                background-color: cornflowerblue;
+            }
+            /*TYPE[ATTRIBUTE]*/
+            h3[class=""]{
+                background-color: darkgoldenrod;
+            }
+            /*.CLASS[ATTRIBUTE]*/
+            .pta [disabled] {
+                font-size:x-large;
+                background-color: darkgreen;
+            }
+            /*#id[ATTRIBUTE]*/
+            #IDatt [required]{
+                background-color: chartreuse ;
+            }
+            /*DESCENDANTS--TYPE TYPE*/
+            ul li{
+                background-color: chocolate;
+            }
+            /*DESCENDANTS--TYPE CLASS*/
+            div .abd{
+                background-color: blueviolet;
+            }
+             /*DESCENDANTS--TYPE #ID*/
+             div #Ag{
+                 background-color: crimson;
+
+             }
+             /*DESCENDANTS--CLASS TYPE*/
+             div span{
+                 background-color: cornsilk;
+
+
+             }
+             /*DESCENDANTS--CLASS #ID*/
+             div #AD{
+                 background-color: darkblue;
+             }
+             /*DESCENDANTS-- #ID CLASS*/
+             #AH .dec{
+                 background-color: darkcyan;
+             }
+             /*DESCENDANTS-- #ID TYPE*/
+             #AK p{
+                 background-color: blueviolet;
+             }
+             /*CHILD--TYPE>TYPE*/
+             div>div{
+                 background-color: brown;
+             }
+             /*CHILD--TYPE>.CLASS*/
+             div>.TD {
+                 background-color: cadetblue;
+             }
+             /*CHILD--TYPE>.CLASS*/
+             div>#AR {
+                 background-color: chocolate;
+             }
+             /*CHILD--.CLASS> type*/
+             .CT>p {
+                 background-color: cyan;
+             }
+             /*CHILD--.CLASS> #ID*/
+             .CID>#AY {
+                 background-color: darkgoldenrod;
+             }
+             /*CHILD--#ID>.CLASS*/
+             #AU>.IDC {
+                 background-color: darkgreen;
+             }
+              /*CHILD--#ID>TYPE*/
+             #AJ>span {
+                 background-color: darkgrey;
+             }
+        </style>
+        </head>
+        <body>
+            <!--INLINE STYLES-->
+            <h1 style="background-color: burlywood ;">INLINE</h1>
+            <!--TYPE SELECTORS-->
+            <h1>TYPE SELECTORS</h1>
+            <h1>TYPE SELECTORS</h1>
+
+            <!--UNIVERSAL SELECTORS-->
+
+            <p>UNIVERSAL SELECTORS</p>
+            <br>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo quod amet numquam maxime similique. Aliquid distinctio at sunt rerum, autem blanditiis, accusantium libero iste ipsum, ullam nulla recusandae nobis neque.</p>
+            
+            <!--CLASS SELECTORS-->
+            <p class="text-blue">CLASS SELECTORS</p>
+            <!--ID SELECTORS-->
+            <p1 id="P1">ID SELECTORS</p1>
+            <p class="text-blue bg-green">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur fugit obcaecati dolores incidunt nesciunt temporibus amet veniam sapiente, inventore facilis quae eius eos odio commodi voluptatibus molestias explicabo modi? Deserunt?</p>
+            <!--ATTRIBUTE SELECTORS--><!--TYPE[ATTRIBUTE="value"]-->
+            <h2 class="text-green">ATTRIBUTE SELECTOR</h2>
+            <h2 class="text-green">lorem ipsum</h2>
+            <!--ATTRIBUTE SELECTORS--><!--ID[ATTRIBUTE="value"]-->
+            <p id="p1" class="clsp1">ATTRIBUTE SELECTOR -ID[ATTRIBUTE="VALUE"]</p>
+            <!--ATTRIBUTE SELECTORS--><!--CLASS [ATTRIBUTE="value"]-->
+            <div class="cav">
+                <p class="cls7">ATTRIBUTE SELECTOR -CLASS[ATTRIBUTE="VALUE"]</p>
+                <p class="cls8">Lorem ipsum </p>
+            </div>
+            <!--ATTRIBUTE SELECTORS--><!--TYPE[ATTRIBUTE]-->
+            <div>
+                <h3 class="">ATTRIBUTE SELECTOR -TYPE[ATTRIBUTE]</h3>
+                <h3 class="">Lorem ipsum </h3>
+            </div>
+            <!--ATTRIBUTE SELECTORS--><!--.CLASS[ATTRIBUTE]-->
+            <div class="pta">
+                ATTRIBUTE SELECTOR -TYPE[ATTRIBUTE]
+                <form>
+            <input type="text" name="txtusername" placeholder="Username" disabled>
+        </form>
+
+            </div>
+            <!--ATTRIBUTE SELECTORS--><!--#ID[ATTRIBUTE]-->
+            ATTRIBUTE SELECTOR -ID[ATTRIBUTE]
+            
+                <form id="IDatt">
+                <input type="password" name="paPassword" placeholder="password" required> 
+                </form>
+
+            <!--DESCENDANTS-->
+            <!--TYPE TYPE-->
+            <div>
+                <ul>
+                    
+                    <li>DESCENDANTS</li>
+                    <li>TYPE</li>
+                    <li>TYPE</li>
+                    
+                </ul>
+            </div>
+            <!--TYPE CLASS-->
+            <div>
+                <p class="abd">DESCENDANTS--TYPE .CLASS</p>
+            </div>
+            <!--TYPE #ID-->
+            <div>
+                <p id="Ag">DESCENDANTS--TYPE #ID</p>
+            </div>
+            <!--CLASS TYPE-->
+            <div class="ct">
+                <p>CLASS TYPE</p>
+                <span>CLASS TYPE</span>
+            </div>
+            <!--CLASS #ID-->
+            <div>
+                <p id="AD">CLASS #ID</p>
+                <p id="AS">CLASS #ID</p>
+            </div>
+            <!--#ID CLASS-->
+            <div id="AH">
+                <p class="dec">#ID .CLASS</p>
+                <p>#ID .CLASS</p>
+            </div>
+            <!--#ID TYPE-->
+            <div id="AK">
+                <p>DESCENDANT ID -TYPE</p>
+            </div>
+            <!--CHILD -->
+            <!--TYPE>TYPE-->
+            <div>
+                <p>CHILD SELECTORS</p>
+                <div>
+                    CHILD SELECTOR-type>type
+                </div>
+            </div>
+            <!--TYPE>.class-->
+            <div>
+                <p class="TC">CHILD SELECTOR-type>.class</p>
+                <p class="TD">CS TYPE>.CLASS</p>
+            </div>
+            <!--TYPE>#ID-->
+            <div>
+                <p id="AL">CHILD SELECTOR-type>#id</p>
+                <p id="AR">CS type>#id</p>
+            </div>
+            <!--.CLASS>TYPE-->
+            <div class="CT">
+                <p> CHILD SELECTOR -.CLASS>TYPE</p>
+
+            </div>
+            <!--.CLASS>#ID-->
+            <div class="CID">
+                <p id="AY">CHILD SELECTOR-class>#ID</p>
+            </div>
+            <!--#ID>.CLASS-->
+            <div id="AU">
+                <p class="IDC">CHILD SELECTOR- #ID>.CLASS</p>
+            </div>
+            <!--#ID>TYPE-->
+            <div id="AJ">
+                <span>CHILD SELECTOR- #ID> TYPE</span><br>
+                END
+            </div>
+
+            
+
+            
+
+
+            
+ 
+
+ 
+
+
+
+    
+
+        </body>
+        </html>
